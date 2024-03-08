@@ -47,4 +47,12 @@ const UserList = [
   },
 ];
 
-module.exports = { UserList };
+const friends = [
+  {
+    id: 1,
+    username: "user1",
+    age: 12,
+  },
+];
+
+module.exports = { UserList, friends };
